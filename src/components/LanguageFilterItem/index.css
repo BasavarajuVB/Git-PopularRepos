@@ -1,0 +1,48 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+.list-item {
+  margin: 6px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .list-item {
+    margin: 1px;
+    margin-bottom: 0;
+  }
+}
+.language-button {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  color: #0f172a;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+@media screen and (min-width: 700px) {
+  .list-item {
+    margin: 18px;
+    margin-bottom: 0;
+  }
+  .language-button {
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    color: #0f172a;
+    font-family: 'roboto';
+    font-weight: 600;
+  }
+}
+.active-button {
+  background-color: transparent;
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  border-radius: 7px;
+  padding: 4px;
+  font-size: 18px;
+}

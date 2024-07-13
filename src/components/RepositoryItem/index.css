@@ -1,0 +1,52 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+/* Write your CSS here */
+.list-item-container {
+  width: 240px;
+  background-color: #f8f8ff;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 15px;
+
+  padding: 15px;
+  border-radius: 18px;
+}
+.item-name {
+  font-family: 'Roboto';
+  color: #e73959;
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.image-size {
+  width: 80px;
+  align-self: center;
+}
+.icon {
+  width: 15px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+}
+.data-container {
+  align-self: center;
+}
+.text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+}
